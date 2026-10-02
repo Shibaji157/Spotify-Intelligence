@@ -1,0 +1,27 @@
+{
+    "project_name": "Spotify Intelligence",
+    "model_version": "1.0",
+    "best_k": 6,
+    "audio_features": [
+        "danceability",
+        "energy",
+        "loudness",
+        "speechiness",
+        "acousticness",
+        "instrumentalness",
+        "liveness",
+        "valence",
+        "tempo"
+    ],
+    "training_rows": 32827,
+    "algorithm": "KMeans",
+    "scaling": "StandardScaler",
+    "dimensionality_reduction": "PCA",
+    "random_state": 42,
+    "silhouette_score": 0.1582831627526603,
+    "davies_bouldin_score": 1.5932018421270266,
+    "calinski_harabasz_score": 4762.899813461309,
+    "pca_pc1_explained_variance": 0.23913938481426245,
+    "pca_pc2_explained_variance": 0.16758822557778416,
+    "pca_explained_variance": 0.40672761039204663
+}
